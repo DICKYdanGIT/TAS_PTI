@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+  font-weight: 900;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.prbgjir {
+
+  background: url(prbg2.jpg);
+  background-size: cover;
+  padding-bottom: 10px;
+}
+
+header {}
+
+.palingatas {
+  display: grid;
+  place-items: center;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffff99,
+    /* Light Yellow */
+    0 0 30px #ffff99, 0 0 40px #ffff99, 0 0 50px #ffff99, 0 0 60px #ffff99;
+}
+
+.palingatas p {
+  margin-top: 0;
+
+}
+
+.palingatas h1 {
+  margin-bottom: 0;
+}
+
+p {
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+nav {
+
+  display: grid;
+  place-items: center;
+}
+
+nav>ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-weight: 500;
+
+}
+
+nav>ul>li>a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  margin: 20px;
+
+}
+
+nav ul li a:hover {
+  color: wheat;
+  border-bottom: 3px solid wheat;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+#sale {
+  margin-top: 50px;
+  margin-left: 5%;
+  text-decoration: underline;
+}
+
+.batasatas {
+  border: solid;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+}
+
+.pluar {
+  display: grid;
+  place-items: center;
+}
+
+.gen {
+  margin: 15px 5% 40px 7%;
+  width: 90%;
+  height: 400px;
+  background-image: url("BLACKFRIDAY.jpg");
+  background-position: center;
+  background-size: 1200px;
+}
+
+.luar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px;
+  place-items: center;
+  gap: 3px;
+  width: 70%;
+}
+
+.produk {
+  width: 250px;
+  height: 280px;
+  border: solid white 2px;
+  font-size: 94%;
+}
+
+.produk:hover {
+  border: solid black 2px;
+}
+
+.hati {
+  font-size: large;
+  margin: 0 10px;
+  color: grey;
+  float: right;
+}
+
+.hati:hover {
+  color: red;
+}
+
+.hati:active {
+  color: pink;
+}
+
+.cart {
+  font-size: large;
+  margin: 0 10px;
+  float: left;
+}
+
+.gambar {
+  background-position: bottom;
+  background-size: 98%;
+  width: 100%;
+  height: 70%;
+}
+
+#satu {
+  background-image: url("sepatu1.jpg");
+}
+
+#dua {
+  background-image: url("sepatu2.jpg");
+}
+
+#tiga {
+  background-image: url("sepatu3.jpg");
+}
+
+#empat {
+  background-image: url("sepatu4.jpg");
+}
+
+#lima {
+  background-image: url("sepatu5.jpg");
+}
+
+#enam {
+  background-image: url("sepatu6.jpg");
+}
+
+#tujuh {
+  background-image: url("sepatu7.jpg");
+}
+
+#delapan {
+  background-image: url("sepatu8.jpg");
+}
+
+#sembilan {
+  background-image: url("sepatu9.jpg");
+}
+
+#sepuluh {
+  background-image: url("sepatu10.jpg");
+}
+
+#sebelas {
+  background-image: url("sepatu11.jpg");
+}
+
+#duabelas {
+  background-image: url("sepatu12.jpg");
+}
+
+.se {
+  color: rgb(0, 0, 0);
+  margin-left: 6px;
+  margin-top: 2px;
+  font-size: 85%;
+}
+
+.su {
+  margin: 7px;
+}
+
+.ha {
+  color: rgb(223, 8, 8);
+  margin: 7px;
+}
+
+.ha>.de {
+  color: darkgrey;
+}
+
+a {
+  text-decoration: none;
+}
+
+.lantai {
+  width: 70vh;
+  margin: auto;
+  position: relative;
+  font-weight: lighter;
+  font-family: 'Poppins';
+  font-size: 80%;
+  left: 29%;
+}
+
+#copyright {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  padding-top: 20px;
+
+
+}
+
+.batas1 {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+  width: 100%;
+  height: 60px;
+  margin: 30px 0;
+  font-style: oblique;
+  color: rgb(48, 47, 47);
+}
+
+.kembali {
+  width: 100%;
+}
+
+.kembali a {
+  text-decoration: none;
+  color: #333;
+  font-size: 30px;
+  float: right;
+  margin-right: 70px;
+  margin-bottom: 30PX;
+}
+
+.batas1>h1 {
+  margin-left: 20px;
+  font-weight: 900;
+
+}
+
+.batas1>h3 {
+  place-items: center;
+}
+
+h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+}
+
+.kembali>a {
+  color: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kembali>a:hover {
+  color: black;
+}
+
+.flag, .flag-img {
+  width: 15px;
+  size: 15px;
+  border-radius: 2px;
+  float: left;
+  margin-left: 20px;
+}
+
+  @media (max-width: 1200px) {
+    .luar {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .produk {
+      width: 230px;
+      height: 250px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .luar {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .produk {
+      width: 230px;
+      height: 250px;
+    }
+  }
+
+  @media (max-width: 950px) {
+    .luar {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .produk {
+      width: 250px;
+      height: 270px;
+    }
+    .lantai{
+      left: 20%;
+    }
+  }
+
+  @media (max-width: 780px) {
+    .luar {
+      grid-template-columns: 1fr 1fr;
+      width: 90%;
+    }
+
+    .produk {
+      width: 250px;
+      height: 270px;
+    }
+  }
+
+  @media (max-width: 780px) {
+    .luar {
+      grid-template-columns: 1fr 1fr;
+      width: 90%;
+    }
+
+    .produk {
+      width: 230px;
+      height: 250px;
+    }
+    .lantai{
+      left: 15%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .luar {
+      grid-template-columns: 1fr;
+      width: 100%;
+    }
+
+    .gambar {
+      height: 140px;
+      width: 220px;
+      background-size: 100%;
+      margin-right: 30px;
+    }
+
+    .produk {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      position: relative;
+    }
+
+    .se {
+      margin-left: 6px;
+    }
+
+    .hati {
+      margin-left: 200px;
+      position: absolute;
+    }
+
+    .cart {
+      margin-left: 0;
+      position: absolute;
+    }
+    .lantai{
+      left: 10%;
+    }
+  }

@@ -1,0 +1,248 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+  font-family: 'Poppins';
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url(coba2.jpg)no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+nav {
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
+
+nav>ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+  font-weight: 500;
+}
+
+nav>ul>li {
+  color: whitesmoke;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav>ul>li:hover {
+  border-bottom: 3px solid wheat;
+  color: whitesmoke;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+li>a {
+  color: inherit;
+  text-decoration: none;
+
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 25vh;
+  color: #ffffff;
+  margin-bottom: 20px;
+  background: url(BLACKFRIDAY.jpg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.review-box {
+  background: rgb(196, 196, 196);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  transition: transform 0.6s ease, box-shadow 0.8s ease;
+  cursor: pointer;
+  outline: none;
+  background: url(ganja.jpg);
+  background-size: cover;
+}
+
+.review-box:hover,
+.review-box:focus {
+  transform: translateY(-10px);
+  box-shadow: 6px 8px 5px #696969;
+}
+
+.review-box p {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: whitesmoke;
+}
+
+.stars {
+  color: #ffa200;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.review-box span {
+  font-size: 0.9rem;
+  color: whitesmoke;
+  font-style: oblique;
+}
+
+.mid {
+  margin: 20px;
+  display: grid;
+  place-items: center;
+}
+
+.tengah {
+  color: rgb(78, 38, 0);
+  background-color: rgb(196, 196, 196);
+  height: 70%;
+  width: 70%;
+  padding: 10px;
+  border-radius: 13px;
+  text-align: center;
+  font-family: serif;
+  max-width: 700px;
+  font-size: 25px;
+}
+
+.tengah h2 {
+  margin-top: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+iframe {
+  border: #F6FCDF;
+  height: 100vh;
+  width: 70%;
+}
+
+.misah {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.fti {
+  display: flex;
+  width: 400px;
+
+}
+
+.social-icons {
+  color: white;
+  padding: 5px;
+
+}
+.under {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffff99,
+    /* Light Yellow */
+    0 0 30px #ffff99, 0 0 40px #ffff99, 0 0 50px #ffff99, 0 0 60px #ffff99;
+}
+.social-icons a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  
+}
+
+.social-icons a:hover {
+  color: black;
+  /* Instagram gradient color */
+}
+
+h3 {
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+.foot {
+  margin-top: 250px;
+  margin-left: 250px;
+  margin-right: 250px;
+  font-size: 200%;
+  font-family: 'Poppins';
+  border-radius: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.forus {
+  background-color: white;
+  margin: 10px;
+  font-weight: 900;
+  color: #333;
+  font-style: oblique;
+  text-shadow: #fff, white;
+}
+.fdbck:hover {
+  transition: 0.5s;
+  color: bisque;
+}
+.bawah {
+  width: 100%;
+  height: 150px;
+  margin: 0;
+  color: blanchedalmond;
+  font-family: 'Poppins';
+  font-style: inherit;
+  font-weight: 900;
+  text-align: center;
+  font-weight: 900;
+  
+  text-shadow: 0 0 5px #333;
+}
+.bowah, .buwih {
+  background: url(prbg2.jpg);
+  background-size: cover;
+}
+.bewah {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.foott, {
+  font-size: 90%;
+  width: 100%;
+  margin:0;
+  padding: 0;
+}
+
+
