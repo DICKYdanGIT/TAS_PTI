@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url("log.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+nav {
+  width: 100%;
+  max-width: 300px;
+  height: 50px;
+  margin-right: 10px;
+}
+nav > ul {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  padding-left: 25px;
+}
+
+nav > ul > li {
+  color: whitesmoke;
+  padding: 7px;
+  list-style-type: none;
+}
+
+nav > ul > li:hover {
+  border-bottom: 3px solid wheat;
+  color: whitesmoke;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+#werno {
+  background: radial-gradient(
+    circle at 100%,
+    darkgray,
+    whitesmoke 50%,
+    black 75%,
+    whitesmoke 75%
+  );
+  font-weight: 600;
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animatedTextGradient 1.5s linear infinite;
+}
+@keyframes animatedTextGradient {
+  to {
+    background-position: 200% center;
+  }
+}
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+.whos {
+  color: rgb(84, 66, 66);
+  font-family: "Poppins", sans-serif;
+  font-size: 15vh;
+  font-weight: 900;
+  text-align: center;
+  background: url(fontwp.png) 50% 50%;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.distance {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  gap: 20%;
+  color: whitesmoke;
+}
+
+.card {
+  width: 30%;
+  perspective: 1000px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card-front,
+.card-back {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.card-front {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a:hover {
+  color: whitesmoke;
+}
+
+.social-icons {
+  display: grid;
+  font-size: 3rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .whos {
+    font-size: 65px;
+  }
+  .distance {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 800px) {
+  .whos {
+    font-size: 53px;
+  }
+}
+@media (max-width: 650px) {
+  .whos {
+    font-size: 45px;
+  }
+}
+@media (max-width: 550px) {
+  .whos {
+    font-size: 35px;
+  }
+}
+@media (max-width: 325px) {
+  .whos {
+    font-size: 35px;
+  }
+  header ul {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
+  .welcome {
+    text-align: center;
+  }
+}
